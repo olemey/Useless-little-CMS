@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CMS</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <main>
+        <p id="openCMS">open CMS</p>
+        <section id="content">
+            <h1 id="content-heading"></h1>
+            <div id="content-article"></div>
+        </section>
+        <section id="cms" class="hide">
+            <form id="cms-heading">
+                <input type="text" placeholder="Site heading">
+                <input type="color">
+                <input type="range" min="18" max="72" value="36">
+                <div class="clearer"></div>
+                <p class="button" id="cms-heading-submit">save</p>
+            </form>
+            <form id="cms-article">
+                <h2>Articles</h2>
+                <div id="cms-article-container"></div>
+                <p class="button" id="add-article">+ add new article</p>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
